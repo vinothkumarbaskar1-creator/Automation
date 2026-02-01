@@ -20,7 +20,7 @@ public class Formtest extends BaseTest {
 	public void setupurl()
 	{
 		
-		driver.get("https://demoqa.com/");
+		driver.get("https://www.saucedemo.com/");
 		form=new Formpage(driver);
 		pf=new Practiseform(driver);
 	

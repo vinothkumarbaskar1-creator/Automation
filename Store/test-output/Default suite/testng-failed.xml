@@ -6,6 +6,7 @@
       <class name="Tests.Formtest">
         <methods>
           <include name="setupurl"/>
+          <include name="testclickmenu"/>
           <include name="click_pfmenu"/>
           <include name="setup"/>
         </methods>
