@@ -18,7 +18,12 @@ public class Yourproducttest extends ProductsTest {
 	
 	@Test
 	public void checkoutButtonTest() {
-		yourproduct.clickonCheckoutButton();
+		try {
+			yourproduct.clickonCheckoutButton();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	
 	

@@ -25,6 +25,7 @@ public class ProductsTest extends Baseurl {
 	public void addtoCartTest() {
 		login.enterValidCredentials("standard_user", "secret_sauce");
 		product.addproducttoCart();
+		
 	}
 	
 	@Test(priority=2)
@@ -43,5 +44,23 @@ public class ProductsTest extends Baseurl {
 		
 		
 	}
+	
+	@Test(priority=4)
+	public void clickCheckoutbtn() throws InterruptedException
+	{
+		product.clickonCheckoutButton();
+	}
+	
+//	@Test(priority=5)
+//	public void clickonContinueshoppingtn()
+//	{
+//		product.clickonContinueShopping();
+//	}
+	
+//	@Test(priority=6)
+//	public void clickOnRemovebtn()
+//	{
+//		product.clickonRemoveButton();
+//	}
 
 }

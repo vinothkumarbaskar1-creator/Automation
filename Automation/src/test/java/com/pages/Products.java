@@ -18,6 +18,12 @@ public class Products {
 	By AddtoCart1=By.id("add-to-cart-test.allthethings()-t-shirt-(red)");
 	By Carticon=By.xpath("//a[@class='shopping_cart_link']");
 	
+	By CheckoutButton=By.id("checkout");
+	By continueShoppingbtn=By.xpath("//button[@id='continue-shopping']");
+	By removeBtn=By.xpath("//button[@id='remove-sauce-labs-backpack']");
+	
+	
+	
 	
 	public Products(WebDriver driver)
 	{
@@ -37,9 +43,13 @@ public class Products {
 	public void addproduct1tocart()
 	{
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-		Actions acts = new Actions(driver);
-		 acts.sendKeys(org.openqa.selenium.Keys.PAGE_DOWN).perform();
-		 wait.until(ExpectedConditions.visibilityOfElementLocated(AddtoCart1)).click();
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		
+		WebElement secondBtn = wait.until(
+		ExpectedConditions.presenceOfElementLocated(AddtoCart1));
+		try { Thread.sleep(700); } catch (Exception e) {}
+		js.executeScript("arguments[0].click();", secondBtn);
+
 	}
 	
 	public void clickonCartIcon() {
@@ -48,6 +58,32 @@ public class Products {
 		Actions act = new Actions(driver);
 		act.sendKeys(org.openqa.selenium.Keys.PAGE_UP).perform();
 		wait.until(ExpectedConditions.visibilityOfElementLocated(Carticon)).click();
+		driver.navigate().refresh();
+	}
+	
+	public void clickonCheckoutButton() throws InterruptedException {
+		
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+		WebElement checkoutBtn = wait.until(
+		        ExpectedConditions.visibilityOfElementLocated(CheckoutButton));
+
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		
+		js.executeScript("arguments[0].scrollIntoView({block:'center'});", checkoutBtn);
+		Thread.sleep(800);
+		js.executeScript("arguments[0].click();", checkoutBtn);
+	}
+	
+	public void clickonContinueShopping()
+	{
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(continueShoppingbtn)).click();
+	}
+	
+	public void clickonRemoveButton()
+	{
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(removeBtn)).click();
 	}
 	
 

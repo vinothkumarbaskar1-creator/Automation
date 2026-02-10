@@ -3,18 +3,21 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testscript.Yourproducttest">
+      <class name="com.testscript.OverviewTest">
         <methods>
           <include name="teardown"/>
+          <include name="clickOnLogoutButton"/>
           <include name="setup"/>
+          <include name="clickOnBackbtn"/>
+          <include name="finish"/>
+          <include name="setReport"/>
+          <include name="addProductstocart"/>
+          <include name="customerInfo"/>
+          <include name="clickonFinishBtn"/>
+          <include name="clickToCarticonandcheckout"/>
           <include name="init"/>
-          <include name="checkoutButtonTest"/>
-          <include name="init1"/>
-          <include name="addtoCartTest"/>
-          <include name="addtoCartTest1"/>
-          <include name="clickCartIconnTest"/>
         </methods>
-      </class> <!-- com.testscript.Yourproducttest -->
+      </class> <!-- com.testscript.OverviewTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
