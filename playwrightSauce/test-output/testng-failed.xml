@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Test.Checkouttest">
+        <methods>
+          <include name="addproductToCart"/>
+          <include name="extentSetup"/>
+          <include name="setup"/>
+          <include name="flushReport"/>
+          <include name="checkoutvalidfom"/>
+          <include name="finishbutton"/>
+          <include name="checkOutButton"/>
+          <include name="backbutton"/>
+          <include name="validcheckoutForm"/>
+          <include name="cartIcon"/>
+        </methods>
+      </class> <!-- Test.Checkouttest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="3" parallel="tests" name="WebkitTest(failed)">
+    <parameter name="browser" value="webkit"/>
+    <classes>
+      <class name="Test.Checkouttest">
+        <methods>
+          <include name="addproductToCart"/>
+          <include name="extentSetup"/>
+          <include name="setup"/>
+          <include name="checkoutvalidfom"/>
+          <include name="flushReport"/>
+          <include name="finishbutton"/>
+          <include name="checkOutButton"/>
+          <include name="validcheckoutForm"/>
+          <include name="backbutton"/>
+          <include name="cartIcon"/>
+        </methods>
+      </class> <!-- Test.Checkouttest -->
+    </classes>
+  </test> <!-- WebkitTest(failed) -->
+  <test thread-count="3" parallel="tests" name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Test.Checkouttest">
+        <methods>
+          <include name="extentSetup"/>
+          <include name="addproductToCart"/>
+          <include name="setup"/>
+          <include name="checkoutvalidfom"/>
+          <include name="flushReport"/>
+          <include name="finishbutton"/>
+          <include name="checkOutButton"/>
+          <include name="backbutton"/>
+          <include name="validcheckoutForm"/>
+          <include name="cartIcon"/>
+        </methods>
+      </class> <!-- Test.Checkouttest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

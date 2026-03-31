@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-31T13:33:06 IST" name="TestSuite" finished-at="2026-03-31T13:33:29 IST" duration-ms="22573">
+    <groups>
+    </groups>
+    <test started-at="2026-03-31T13:33:06 IST" name="ChromeTest" finished-at="2026-03-31T13:33:27 IST" duration-ms="20443">
+      <class name="Test.Checkouttest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Test.Checkouttest@c8c12ac]" started-at="2026-03-31T13:33:06 IST" name="setup" finished-at="2026-03-31T13:33:24 IST" duration-ms="17755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validcheckoutForm()[pri:1, instance:Test.Checkouttest@c8c12ac]" started-at="2026-03-31T13:33:24 IST" name="validcheckoutForm" finished-at="2026-03-31T13:33:25 IST" duration-ms="691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validcheckoutForm -->
+        <test-method signature="addproductToCart()[pri:2, instance:Test.Checkouttest@c8c12ac]" started-at="2026-03-31T13:33:25 IST" name="addproductToCart" finished-at="2026-03-31T13:33:25 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproductToCart -->
+        <test-method signature="cartIcon()[pri:3, instance:Test.Checkouttest@c8c12ac]" started-at="2026-03-31T13:33:25 IST" name="cartIcon" finished-at="2026-03-31T13:33:25 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartIcon -->
+        <test-method signature="checkOutButton()[pri:4, instance:Test.Checkouttest@c8c12ac]" started-at="2026-03-31T13:33:25 IST" name="checkOutButton" finished-at="2026-03-31T13:33:26 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutButton -->
+        <test-method signature="checkoutvalidfom()[pri:5, instance:Test.Checkouttest@c8c12ac]" started-at="2026-03-31T13:33:26 IST" name="checkoutvalidfom" finished-at="2026-03-31T13:33:26 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutvalidfom -->
+        <test-method signature="finishbutton()[pri:6, instance:Test.Checkouttest@c8c12ac]" started-at="2026-03-31T13:33:26 IST" name="finishbutton" finished-at="2026-03-31T13:33:26 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishbutton -->
+        <test-method signature="backbutton()[pri:7, instance:Test.Checkouttest@c8c12ac]" started-at="2026-03-31T13:33:26 IST" name="backbutton" finished-at="2026-03-31T13:33:27 IST" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backbutton -->
+      </class> <!-- Test.Checkouttest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2026-03-31T13:33:06 IST" name="WebkitTest" finished-at="2026-03-31T13:33:27 IST" duration-ms="21305">
+      <class name="Test.Checkouttest">
+        <test-method is-config="true" signature="extentSetup()[pri:0, instance:Test.Checkouttest@76505305]" started-at="2026-03-31T13:33:06 IST" name="extentSetup" finished-at="2026-03-31T13:33:06 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Test.Checkouttest@76505305]" started-at="2026-03-31T13:33:06 IST" name="setup" finished-at="2026-03-31T13:33:23 IST" duration-ms="16919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webkit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validcheckoutForm()[pri:1, instance:Test.Checkouttest@76505305]" started-at="2026-03-31T13:33:23 IST" name="validcheckoutForm" finished-at="2026-03-31T13:33:25 IST" duration-ms="1510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validcheckoutForm -->
+        <test-method signature="addproductToCart()[pri:2, instance:Test.Checkouttest@76505305]" started-at="2026-03-31T13:33:25 IST" name="addproductToCart" finished-at="2026-03-31T13:33:25 IST" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproductToCart -->
+        <test-method signature="cartIcon()[pri:3, instance:Test.Checkouttest@76505305]" started-at="2026-03-31T13:33:25 IST" name="cartIcon" finished-at="2026-03-31T13:33:26 IST" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartIcon -->
+        <test-method signature="checkOutButton()[pri:4, instance:Test.Checkouttest@76505305]" started-at="2026-03-31T13:33:26 IST" name="checkOutButton" finished-at="2026-03-31T13:33:26 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutButton -->
+        <test-method signature="checkoutvalidfom()[pri:5, instance:Test.Checkouttest@76505305]" started-at="2026-03-31T13:33:26 IST" name="checkoutvalidfom" finished-at="2026-03-31T13:33:27 IST" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutvalidfom -->
+        <test-method signature="finishbutton()[pri:6, instance:Test.Checkouttest@76505305]" started-at="2026-03-31T13:33:27 IST" name="finishbutton" finished-at="2026-03-31T13:33:27 IST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishbutton -->
+        <test-method signature="backbutton()[pri:7, instance:Test.Checkouttest@76505305]" started-at="2026-03-31T13:33:27 IST" name="backbutton" finished-at="2026-03-31T13:33:27 IST" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backbutton -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:Test.Checkouttest@76505305]" started-at="2026-03-31T13:33:29 IST" name="flushReport" finished-at="2026-03-31T13:33:29 IST" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- Test.Checkouttest -->
+    </test> <!-- WebkitTest -->
+    <test started-at="2026-03-31T13:33:06 IST" name="FirefoxTest" finished-at="2026-03-31T13:33:29 IST" duration-ms="22573">
+      <class name="Test.Checkouttest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Test.Checkouttest@5656be13]" started-at="2026-03-31T13:33:06 IST" name="setup" finished-at="2026-03-31T13:33:27 IST" duration-ms="20644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validcheckoutForm()[pri:1, instance:Test.Checkouttest@5656be13]" started-at="2026-03-31T13:33:27 IST" name="validcheckoutForm" finished-at="2026-03-31T13:33:27 IST" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validcheckoutForm -->
+        <test-method signature="addproductToCart()[pri:2, instance:Test.Checkouttest@5656be13]" started-at="2026-03-31T13:33:27 IST" name="addproductToCart" finished-at="2026-03-31T13:33:28 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproductToCart -->
+        <test-method signature="cartIcon()[pri:3, instance:Test.Checkouttest@5656be13]" started-at="2026-03-31T13:33:28 IST" name="cartIcon" finished-at="2026-03-31T13:33:28 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartIcon -->
+        <test-method signature="checkOutButton()[pri:4, instance:Test.Checkouttest@5656be13]" started-at="2026-03-31T13:33:28 IST" name="checkOutButton" finished-at="2026-03-31T13:33:28 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutButton -->
+        <test-method signature="checkoutvalidfom()[pri:5, instance:Test.Checkouttest@5656be13]" started-at="2026-03-31T13:33:28 IST" name="checkoutvalidfom" finished-at="2026-03-31T13:33:28 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutvalidfom -->
+        <test-method signature="finishbutton()[pri:6, instance:Test.Checkouttest@5656be13]" started-at="2026-03-31T13:33:28 IST" name="finishbutton" finished-at="2026-03-31T13:33:28 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishbutton -->
+        <test-method signature="backbutton()[pri:7, instance:Test.Checkouttest@5656be13]" started-at="2026-03-31T13:33:28 IST" name="backbutton" finished-at="2026-03-31T13:33:29 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backbutton -->
+      </class> <!-- Test.Checkouttest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
