@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-07T18:18:10 IST" name="Default suite" finished-at="2026-04-07T18:18:57 IST" duration-ms="46420">
+    <groups>
+    </groups>
+    <test started-at="2026-04-07T18:18:10 IST" name="Default test" finished-at="2026-04-07T18:18:57 IST" duration-ms="46420">
+      <class name="Testing.Sighnuptest">
+        <test-method is-config="true" signature="extentSetup()[pri:0, instance:Testing.Sighnuptest@77847718]" started-at="2026-04-07T18:18:10 IST" name="extentSetup" finished-at="2026-04-07T18:18:10 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testing.Sighnuptest@77847718]" started-at="2026-04-07T18:18:10 IST" name="setup" finished-at="2026-04-07T18:18:35 IST" duration-ms="24722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signup()[pri:1, instance:Testing.Sighnuptest@77847718]" started-at="2026-04-07T18:18:35 IST" name="signup" finished-at="2026-04-07T18:18:39 IST" duration-ms="3899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method signature="validdSignupTest()[pri:2, instance:Testing.Sighnuptest@77847718]" started-at="2026-04-07T18:18:39 IST" name="validdSignupTest" finished-at="2026-04-07T18:18:39 IST" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validdSignupTest -->
+        <test-method signature="navigatetoYopmain()[pri:3, instance:Testing.Sighnuptest@77847718]" started-at="2026-04-07T18:18:39 IST" name="navigatetoYopmain" finished-at="2026-04-07T18:18:44 IST" duration-ms="4777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatetoYopmain -->
+        <test-method signature="yopEmaillogin()[pri:4, instance:Testing.Sighnuptest@77847718]" started-at="2026-04-07T18:18:44 IST" name="yopEmaillogin" finished-at="2026-04-07T18:18:47 IST" duration-ms="2659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yopEmaillogin -->
+        <test-method signature="clickActivationLink()[pri:5, instance:Testing.Sighnuptest@77847718]" started-at="2026-04-07T18:18:47 IST" name="clickActivationLink" finished-at="2026-04-07T18:18:56 IST" duration-ms="9209" status="FAIL">
+          <exception class="com.microsoft.playwright.impl.TargetClosedError">
+            <message>
+              <![CDATA[Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\VINOTH~1\AppData\Local\Temp\playwright-java-11163862218348806007\package\lib\utils\stackTrace.js:50:17)
+    at LongStandingScope._race (C:\Users\VINOTH~1\AppData\Local\Temp\playwright-java-11163862218348806007\package\lib\utils\manualPromise.js:91:52)
+    at LongStandingScope.race (C:\Users\VINOTH~1\AppData\Local\Temp\playwright-java-11163862218348806007\package\lib\utils\manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (C:\Users\VINOTH~1\AppData\Local\Temp\playwright-java-11163862218348806007\package\lib\server\dispatchers\dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (C:\Users\VINOTH~1\AppData\Local\Temp\playwright-java-11163862218348806007\package\lib\server\dispatchers\dispatcher.js:361:39)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:449:9)
+}
+Call log:
+- waiting for locator("#idnName") to be visible
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\VINOTH~1\AppData\Local\Temp\playwright-java-11163862218348806007\package\lib\utils\stackTrace.js:50:17)
+    at LongStandingScope._race (C:\Users\VINOTH~1\AppData\Local\Temp\playwright-java-11163862218348806007\package\lib\utils\manualPromise.js:91:52)
+    at LongStandingScope.race (C:\Users\VINOTH~1\AppData\Local\Temp\playwright-java-11163862218348806007\package\lib\utils\manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (C:\Users\VINOTH~1\AppData\Local\Temp\playwright-java-11163862218348806007\package\lib\server\dispatchers\dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (C:\Users\VINOTH~1\AppData\Local\Temp\playwright-java-11163862218348806007\package\lib\server\dispatchers\dispatcher.js:361:39)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:449:9)
+}
+Call log:
+- waiting for locator("#idnName") to be visible
+
+at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:1060)
+at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:1050)
+at com.microsoft.playwright.impl.PageImpl.lambda$waitForSelector$93(PageImpl.java:1491)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+at com.microsoft.playwright.impl.PageImpl.waitForSelector(PageImpl.java:1490)
+at com.microsoft.playwright.Page.waitForSelector(Page.java:8095)
+at PageLocaters.Yoplocaters.clickLink(Yoplocaters.java:60)
+at Testing.Sighnuptest.clickActivationLink(Sighnuptest.java:126)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\VINOTH~1\AppData\Local\Temp\playwright-java-11163862218348806007\package\lib\utils\stackTrace.js:50:17)
+    at LongStandingScope._race (C:\Users\VINOTH~1\AppData\Local\Temp\playwright-java-11163862218348806007\package\lib\utils\manualPromise.js:91:52)
+    at LongStandingScope.race (C:\Users\VINOTH~1\AppData\Local\Temp\playwright-java-11163862218348806007\package\lib\utils\manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (C:\Users\VINOTH~1\AppData\Local\Temp\playwright-java-11163862218348806007\package\lib\server\dispatchers\dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (C:\Users\VINOTH~1\AppData\Local\Temp\playwright-java-11163862218348806007\package\lib\server\dispatchers\dispatcher.js:361:39)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:449:9)
+}
+Call log:
+- waiting for locator("#idnName") to be visible
+
+at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.microsoft.playwright.impl.TargetClosedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickActivationLink -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testing.Sighnuptest@77847718]" started-at="2026-04-07T18:18:56 IST" name="closeBrowser" finished-at="2026-04-07T18:18:57 IST" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:Testing.Sighnuptest@77847718]" started-at="2026-04-07T18:18:57 IST" name="flushReport" finished-at="2026-04-07T18:18:57 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- Testing.Sighnuptest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
